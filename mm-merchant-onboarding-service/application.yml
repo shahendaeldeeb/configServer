@@ -27,7 +27,7 @@ spring:
   mondiapayng.datasource:
     jdbc-url: jdbc:mysql://m1.mysql-db91-hh.dev.arvm.de:3306/MondiaPayNG
     username: udWAAR1XX2cd046C
-    password: 4e3d441947fd9af2a943d1b93259de8e3ea3f809c4b0fbd1b5c4e0ce658cb332b409187afeab0f5ca373c4aa2e581b7c
+    password: {cipher}4e3d441947fd9af2a943d1b93259de8e3ea3f809c4b0fbd1b5c4e0ce658cb332b409187afeab0f5ca373c4aa2e581b7c
     driver-class-name: com.mysql.jdbc.Driver
     pool-name: MerchantOP
     connection-timeout: 30000
