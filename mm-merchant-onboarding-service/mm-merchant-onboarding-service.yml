@@ -37,7 +37,8 @@ spring:
   cache:
     cache-names: affiliatesCache
     type: ehcache
-    echache.config: classpath:echache.xml
+    echache:
+      config: classpath:echache.xml
 
   jpa:
     properties:
